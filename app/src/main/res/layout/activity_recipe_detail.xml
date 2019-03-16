@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="name.juhasz.judit.udacity.delicious.activity.RecipeDetailActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsv_recipe_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_normal"
+        android:paddingRight="@dimen/padding_normal"
+        android:paddingLeft="@dimen/padding_normal">
+
+        <FrameLayout
+            android:id="@+id/container_recipe_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
